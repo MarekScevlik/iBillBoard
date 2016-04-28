@@ -1,0 +1,46 @@
+{
+  "categoryName": "Test Categories",
+  "categoryNoLoopData": "Test Loop cycle",
+  "categories": [
+    {
+      "categoryID": "111",
+      "parentID": "111",
+      "subjectID": "7",
+      "categoryName": "Category 1",
+      "categoryDescription": "Description of Category 1",
+      "itemCount": "101"
+    },
+    {
+      "categoryID": "222",
+      "parentID": "111",
+      "subjectID": "7",
+      "categoryName": "Category 2",
+      "categoryDescription": "Description of Category 2",
+      "itemCount": "38"
+    },
+    {
+      "categoryID": "333",
+      "parentID": "111",
+      "subjectID": "7",
+      "categoryName": "Category 3",
+      "categoryDescription": "Description of Category 3",
+      "itemCount": "5"
+    },
+    {
+      "categoryID": "444",
+      "parentID": "111",
+      "subjectID": "7",
+      "categoryName": "Category 4",
+      "categoryDescription": "Description of Category 4",
+      "itemCount": "43"
+    },
+    {
+      "categoryID": "555",
+      "parentID": "111",
+      "subjectID": "7",
+      "categoryName": "Category 5",
+      "categoryDescription": "Description of Category 5",
+      "itemCount": "70"
+    }
+  ]
+}

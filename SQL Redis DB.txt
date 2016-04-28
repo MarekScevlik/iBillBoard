@@ -1,0 +1,9 @@
+CREATE TABLE redis 
+(
+   id int NOT NULL UNIQUE AUTO_INCREMENT,
+   count int,
+   PRIMARY KEY (id)
+);
+
+INSERT INTO redis VALUES (1, 0);
+

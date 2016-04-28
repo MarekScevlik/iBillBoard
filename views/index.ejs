@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <% include templates/header.ejs %>
+    <h2>Count in DB: <%= countindb %></h2>
+
+    <p>Assignment for: <%= title %></p>
+    <p>Developer: <%= name %></p>
+    <p>Score hoped: <%= points %> out of 100</p>
+
+   <h3><%= otherdata.categoryName %></h3>
+
+    <ul>
+         <% otherdata.categories.forEach(function(item){  %>
+           <li><%= item.categoryName %></li>
+         <%  }); %>
+
+    </ul>
+    <h3><%= otherdata.categoryNoLoopData %></h3>
+    <ul>
+      <% for(var i=0; i<5; i++){ %>
+
+          <li>Loop cycle: <%=i %></li>
+
+      <% } %>
+    </ul>
+
+  </body>
+</html>
